@@ -1,0 +1,95 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(72deg,rgb(143, 112, 228, 0.85) 10%, rgb(23, 23, 23, 0.85)  99%) ;
+text-align: center;
+overflow-y: hidden;}
+
+.topo {text-align: center;
+    padding: 50px;
+    position: fixed;
+    top: 0px;
+    left: 800px;
+    right: 0px;
+font-size: 20px;}
+
+a {text-decoration: none;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: #ffffff; 
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    border-radius: 5%;
+    padding: 0 10px;
+   }
+
+    a:after {
+        content:"";
+        position: absolute;
+        background-color:#ffffff;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+
+    a:hover { 
+        color: #8F70E4;
+    }
+
+    a:hover:after {
+        width: 100%;
+    }
+
+.logo {
+    padding: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+h1 {color: #ffffff;
+    font-size: 30px;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 700px; 
+    padding: 200px;
+    }
+
+    h2 {color: #ffffff;
+        font-size: 30px;
+        margin-top: -200px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 700px; 
+
+        } 
+
+    .mascote {
+        position: absolute;
+       right: 300px;
+        top: 300px;
+        margin-top:240px;
+}
+
+.icones {
+position: absolute;
+left: 1000px;
+ top: 300px;
+ margin-top:240px;}
+
+ .icon {
+    width: 100px;
+    height: 100px;
+}
